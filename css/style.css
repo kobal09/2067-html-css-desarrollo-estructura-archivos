@@ -115,3 +115,15 @@ body{
     font-size: 1.5rem;
     font-weight: 400;
 }
+
+/* Agregando media queries, para que la pagina se adapte a otros dispositivos */
+
+@media (max-width:1200px) {
+    .presentacion{
+        flex-direction: column-reverse;
+    }
+
+    .header{
+        padding: 10%;
+    }
+}
